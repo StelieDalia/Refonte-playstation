@@ -18,7 +18,7 @@
     height: 5vh;
 }
 .navbar {
-    position: ;
+    position: fixed;
     top: 0;
     background-color: white;
     height: 120px;
@@ -148,10 +148,10 @@ section {
     height: 30vh;
 }
 .card {
-    width: 100px;
-    height: 150px;
+    width: 90px;
+    height: 100px;
     display: flex;
-    margin-left: 100px;
+    margin-left: 90px;
     margin-top: 20px;
 }
 .card img {
@@ -215,12 +215,12 @@ section {
     height: 600px;
     width: 100%;
     background-repeat: no-repeat;
-    margin-top: 50px;
+    margin-top: 70px;
     background-size: cover;
 }
 .style {
     display: flex;
-    margin-top: 5%;
+    margin-top: 15%;
     margin-left: 30%;
 }
 .style img {
@@ -241,12 +241,12 @@ section {
     height: 740px;
     width: 100%;
     background-repeat: no-repeat;
-    margin-top: 20%;
+    margin-top: 42%;
     background-size: cover;
 }
 .theme {
     position: relative;
-    margin-left: 150px;
+    margin-left: 10%;
 }
 .theme h3 {
     font-size: 35px;
