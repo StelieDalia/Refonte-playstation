@@ -205,6 +205,16 @@ section {
 }
 .images {
    flex-direction: row;
+   margin: 10px;
+   cursor: pointer;
+   border-radius: 10px;
+   transition: transform 100ms ease-in;
+   opacity: 0.5;
+}
+.images:hover {
+    transform: scale(1.07);
+    opacity: 1;
+    border: solid blue 3px;
 }
 .images img {
     height: 60px;
@@ -279,9 +289,14 @@ section {
     border-radius: 15px;
     background-size: cover;
     animation: slider 15s ease-in-out infinite both;
+    transition: transform 100ms ease-in;
+    opacity: 0.5;
 }
 .down:hover {
     animation-play-state: paused;
+    transform: scale(1.07);
+    opacity: 1;
+    border: solid blue 3px;
 }
 @keyframes slider {
     0%{background-image: url(oxenfree-ii-lost-signals-store-art-01-ps4-03dec21$en.webp);}
@@ -299,9 +314,14 @@ section {
     background-repeat: no-repeat;
     background-size: cover;
     animation: side 15s ease-in-out infinite both;
+    transition: transform 100ms ease-in;
+    opacity: 0.5;
 }
 .nev:hover {
     animation-play-state: paused;
+    transform: scale(1.07);
+    opacity: 1;
+    border: solid blue 3px;
 }
 @keyframes side {
     0%{background-image: url(game_landing_header.png__768x768_q100_crop-scale_optimize_subsampling-2.jpg);}
@@ -319,9 +339,14 @@ section {
     border-radius: 15px;
     background-size: cover;
     animation: foot 15s ease-in-out infinite both;
+    transition: transform 100ms ease-in;
+    opacity: 0.5;
 }
 .nous:hover {
     animation-play-state: paused;
+    transform: scale(1.07);
+    opacity: 1;
+    border: solid blue 3px;
 }
 @keyframes foot {
     0%{background-image: url(The-Quarry-Key-Art-4K-scaled-e1647533984257.webp);}
@@ -340,9 +365,14 @@ section {
     border-radius: 15px;
     background-size: cover;
     animation: fort 15s ease-in-out infinite both;
+    transition: transform 100ms ease-in;
+    opacity: 0.5;
 }
 .vie:hover {
     animation-play-state: paused;
+    transform: scale(1.07);
+    opacity: 1;
+    border: solid blue 3px;
 }
 @keyframes fort {
     0%{background-image: url(saints-row-store-art-01-en-29oct21.webp);}
@@ -394,6 +424,9 @@ p {
 .login .content {
     margin: 0 auto;
     margin-top: 5%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .icon img {
